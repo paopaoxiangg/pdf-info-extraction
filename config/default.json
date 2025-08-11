@@ -1,0 +1,11 @@
+{
+  "model_path": "nanonets/Nanonets-OCR-s",
+  "device_map": "auto",
+  "torch_dtype": "auto",
+  "max_image_side": 2560,
+  "dpi": 300,
+  "max_new_tokens": 1536,
+  "do_sample": false,
+  "temperature": 0.0,
+  "ocr_prompt": "Extract the text from the above document as if you were reading it naturally. Return the tables in HTML format. Return equations in LaTeX. If an image lacks a caption, add a brief description inside <img></img>; otherwise put the caption there. Wrap watermarks as <watermark>...</watermark> and page numbers as <page_number>...</page_number>. Prefer using ☐ and ☑ for check boxes."
+}

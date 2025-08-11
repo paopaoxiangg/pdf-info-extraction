@@ -205,3 +205,19 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# Project specific
+*.pdf
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tiff
+results.json
+*_results.json
+output/
+temp/
+
+# Model cache
+models/
+.cache/
